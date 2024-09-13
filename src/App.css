@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -100,3 +100,31 @@
 .text-size {
   font-size: 20px;
 }
+
+/* Responsive media queries */
+
+/* Small devices (phones, 600px and below) */
+@media (max-width: 600px) {
+  .list {
+    width: 80%;
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+
+  .input {
+    width: 80%;
+    font-size: 0.9rem;
+  }
+
+  .addTaskBtn {
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+}
+
+ 

@@ -90,7 +90,7 @@ function TodoApp() {
   }
 
   return (
-    <div>
+    <div className="mobileResponsive">
       <h2>Todo App</h2>
 
       <input
