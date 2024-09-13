@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+
+/* List style */
+
+.btn {
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(64, 143, 143);
+  border: none;
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  */
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  margin: 20px 30px;
+}
+
+.resetBtn,
+.convertToBtn {
+  border-radius: 20px;
+  margin: 0 10px;
+}
+
+.addTaskBtn {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.list {
+  list-style: lower-roman;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #aaa6a6;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  color: rgb(245, 245, 248);
+}
+
+.input {
+  font-size: 1rem;
+  color: white;
+  border: 1px solid gray;
+  /* background-color: rgb(64, 143, 143); */
+  /* border: none; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  color: black;
+  padding: 3px 20px;
+  /* cursor: pointer; */
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.text-size {
+  font-size: 20px;
+}
